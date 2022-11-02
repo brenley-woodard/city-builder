@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img class="logo" src="assets/html_css_js.png" alt="logo" />
+            <h1>City Designer</h1>
+        </header>
 
-</head>
-
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-
-    </main>
-
-</body>
-
+        <main>
+            <section>
+                <div>
+                    <label>
+                        Temperature
+                        <select id="temperature-select">
+                            <option value="50f">50f</option>
+                            <option value="72f">72f</option>
+                            <option value="65f">65f</option>
+                        </select>
+                    </label>
+                    <img />
+                </div>
+                <div>
+                    <label>
+                        Architecture
+                        <select id="architecture-select">
+                            <option value="craftsman">Craftsman</option>
+                            <option value="beach">Beach</option>
+                            <option value="brownstone">Brownstone</option>
+                        </select>
+                    </label>
+                    <img />
+                </div>
+                <div>
+                    <label>
+                        Cuisine
+                        <select id="cuisine-select">
+                            <option value="food-cart">Food Cart</option>
+                            <option value="mexican">Mexican</option>
+                            <option value="pizza">Pizza</option>
+                        </select>
+                    </label>
+                    <img />
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
