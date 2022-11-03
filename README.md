@@ -28,3 +28,7 @@ Add slogan button
 -   Push the input value into city slogan array
 -   Display all slogans in array
 -   (Bonus) Reset input value
+
+Final todo...
+
+-   constrict image size in CSS
