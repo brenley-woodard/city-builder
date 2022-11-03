@@ -9,7 +9,7 @@
 
 ## Event
 
-Locatation Select
+Location Select
 
 -   User selection used for image display
 -   Increment location counter
